@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shortly</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container flex justify-between">
+        <p>ShortLink</p>
+        <a target="_blank" href="https://wedlake.dev"><p>WEDLAKE.DEV</p></a>
+      </div>
+    </nav>
+    <header>
+      <div class="container hero">
+        <div class="hero-container">
+          <h1>Simply Short Links</h1>
+          <p class="mb-10">Build short links to ease the pain of long URLs</p>
+          <!-- <button id="" test class="btn">Get Started</button> -->
+          <!-- URL Shortner -->
+          <div class="shorten-input-wrapper">
+            <input
+              id="urlInput"
+              type="url"
+              class="shorten-input-wrapper_input"
+              placeholder="Shorten a link here"
+            />
+            <button id="urlButton" class="btn-secondary">Shorten it!</button>
+          </div>
+        </div>
+        <div id="results" class="results-wrapper hidden">
+          <p class="request-url" id="request-url">example url</p>
+          <div class="new-url-wrapper">
+            <p class="result-url" id="result-url">exmaple url</p>
+            <button class="btn" id="clipboard-btn">Copy</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <script src="./scripts.js"></script>
+  </body>
+</html>

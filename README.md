@@ -4,5 +4,5 @@ I wanted to challenge myself to using just HTML, CSS, and Vanilla JS to use some
 Plus, not having the ability to use Reacts state management took a minute to get used to.
 
 
-##Further Changes
+## Further Changes
 I need to handle error state in the api call, as at the moment anything that's not a URL is just logged to the console.
